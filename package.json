@@ -1,0 +1,22 @@
+{
+  "name": "polling-system",
+  "version": "1.0.0",
+  "description": "Real time polling system using websockets and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrawaltejas01/Polling-System.git"
+  },
+  "keywords": [
+    "Websockets"
+  ],
+  "author": "Tejas Agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agrawaltejas01/Polling-System/issues"
+  },
+  "homepage": "https://github.com/agrawaltejas01/Polling-System#readme"
+}

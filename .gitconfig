@@ -1,0 +1,8 @@
+[user]
+    email = agrawaltejas01@gmail.com
+    name = Tejas Agrawal
+[alias]
+    s = status
+    cb = checkout
+[core]
+    editor = vi
