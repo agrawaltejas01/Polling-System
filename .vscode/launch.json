@@ -12,7 +12,14 @@
       "program": "${workspaceFolder}/index.js",
       "restart": true,
       "console": "integratedTerminal",
-      "skipFiles": ["<node_internals>/**"]
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "DB_HOST": "localhost",
+        "DB_PORT": "3306",
+        "DB_USER": "root",
+        "DB_PASSWORD": "password",
+        "DB_DATABASE": "polling_system"
+      }
     }
   ]
 }
