@@ -5,6 +5,8 @@ const connections = require('./connections');
 
 const { db } = connections;
 const query = util.promisify(db.query).bind(db);
+
+// const db
 app.get('/', async (req, res) => {
   const sql = 'show databases;';
 
