@@ -4,7 +4,8 @@
   "description": "Real time polling system using websockets and MySQL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --config .prettierrc --write *.js && eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -36,11 +37,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged && npm run format"
     }
   },
   "lint-staged": {
     "**/*.js": [
+      "npm run format",
       "eslint --fix",
       "git add"
     ]
